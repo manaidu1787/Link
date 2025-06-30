@@ -1,0 +1,11 @@
+pages\Organization.class
+pages\PlatformAdminDashboard.class
+pages\LoginPage.class
+pages\SettingsPage.class
+pages\DashboardPage.class
+tests\PlatformAdminSanityTest.class
+pages\LocationsPage.class
+pages\DevicesPage.class
+base\BaseTest.class
+base\WindowHandles.class
+pages\LogoutPage.class

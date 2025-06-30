@@ -1,0 +1,14 @@
+<suite name="Link Test Execution Status" parallel="tests" thread-count="1">
+    <parameter name="env" value="dev"/>
+    <!-- <parameter name="env" value="load"/>-->
+    <test name="PlatformAdminSanityTest">      
+        <classes>
+             <class name="tests.PlatformAdminSanityTest"/>
+        </classes>
+    </test>
+   <!--  <test name="OrgAdminSanityTest">    
+        <classes>
+            <class name="tests.OrgAdminSanityTest" />      
+        </classes>
+    </test>-->
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Link Test Execution Status]">
+  <parameter name="env" value="dev"/>
+  <test thread-count="1" parallel="tests" name="PlatformAdminSanityTest(failed)">
+    <classes>
+      <class name="tests.PlatformAdminSanityTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="endTest"/>
+          <include name="StartTest"/>
+          <include name="VerifyPlatformAdminFunctionalityOnLocationsScreen" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.PlatformAdminSanityTest -->
+    </classes>
+  </test> <!-- PlatformAdminSanityTest(failed) -->
+</suite> <!-- Failed suite [Link Test Execution Status] -->

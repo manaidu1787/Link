@@ -1,0 +1,5 @@
+utils\PropertyUtils.class
+utils\ReportManager.class
+utils\RandomDataGenerator.class
+utils\Screenshot.class
+utils\ConfigReader.class
